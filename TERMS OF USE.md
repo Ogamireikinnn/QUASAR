@@ -1,6 +1,6 @@
 # Terms of Service for QuasarBot
 
-**Last Updated: June 29, 2026**
+**Last Updated: July 8, 2026**
 
 ## 1. Acceptance of Terms
 
@@ -17,12 +17,15 @@ QuasarBot is a Discord bot that provides:
 - **Rep Role Management** - Automatic role assignment for representatives
 - **Server Configuration** - Custom prefixes, channels, and roles per server
 - **Logging** - Server event logging with dedicated log channels
+- **Welcome Messages** - Custom welcome messages with embed support
+- **Leaderboard** - Ad posting statistics for premium servers
 
 ### 2.2 Alliance Management
 - **Rep Tracking** - Database tracking of all representative mentions
 - **Ad Cleanup** - Automatic deletion of ads when representatives leave
+- **Rep Actions** - Configurable ban or delete-only actions for leaving reps
+- **Bypass Roles** - Custom bypass roles for staff members
 - **Daily Scans** - Automatic scanning to catch leavers
-- **Custom Prefixes** - Set unique prefixes for each server
 - **Role Management** - Dedicated role logs and tracking
 
 ## 3. User Obligations
@@ -63,13 +66,21 @@ Administrators who enable J2L acknowledge that:
 Administrators using the ad tracking system agree to:
 - Ensure advertised content complies with Discord policies
 - Monitor ad channels for inappropriate content
-- Take responsibility for content posted through bot commands
+- Take responsibility for content posted through ad channels
+- Understand rep actions (ban or delete) for leaving representatives
 
 ### 4.4 Auto Responders
 Administrators configuring auto responders are responsible for:
 - Ensuring response content complies with Discord policies
 - Managing staff-only restrictions appropriately
 - Keeping responses accurate and up to date
+- Setting proper category restrictions when needed
+
+### 4.5 Leaderboard System
+Administrators using the leaderboard system acknowledge that:
+- This is a premium feature requiring bot owner activation
+- Data can be reset using lb reset command
+- Historical ad data can be scanned using lb scan command
 
 ## 5. Intellectual Property
 
@@ -126,6 +137,7 @@ We reserve the right to:
 Users may stop using the Bot at any time by:
 - Removing the Bot from their server (server administrators)
 - Ceasing to use Bot commands (individual users)
+- Using resetguild command to clear all server data
 
 ## 9. Privacy
 
@@ -136,6 +148,7 @@ Use of QuasarBot is also governed by our Privacy Policy. By using the Bot, you c
 - QuasarBot operates on Discord's platform and is subject to Discord's Terms of Service
 - We are not affiliated with, endorsed by, or sponsored by Discord Inc.
 - Database services are provided by PostgreSQL/SQLite
+- Voting is available through top.gg
 
 ## 11. Changes to Terms
 
@@ -159,8 +172,9 @@ If any provision of these Terms is found to be unenforceable or invalid, that pr
 ## 14. Contact Information
 
 For questions, concerns, or support regarding these Terms of Service:
-- Contact the bot owner through Discord
+- Contact the bot owner through Discord: quasar (ID: 956902107355689061)
 - Join our support server: https://discord.gg/pkXheu7aY7
+- Use the about command for bot information
 
 ---
 
